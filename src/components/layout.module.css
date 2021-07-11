@@ -1,11 +1,13 @@
 .container {
-    margin: auto;
-    max-width: 500px;
     font-family: sans-serif;
+    text-align: center;
+    background: #FFF7EF;
   }
+
   .heading {
     color: rebeccapurple;
   }
+
   .nav-links {
     display: flex;
     list-style: none;
@@ -18,4 +20,10 @@
     color: black;
   }
 
+ .navbar {
+    background: #FFF7EF;
+    display: flex;
+    justify-content: center;
+ }
 
+ 
