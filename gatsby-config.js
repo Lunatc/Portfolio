@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    pathPrefix: "/reponame",
     title: "Cintia's Portfolio",
   },
   plugins: [
