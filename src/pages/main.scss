@@ -1,0 +1,34 @@
+$white: #FFF7EF;
+$red: #B43930;
+$brown: #C2956B;
+$peach: #FFCBA4;
+$pink: #F28A80;
+$darkred: #931E16;
+
+@import "reset";
+@import "../components/navbar/navbar";
+@import "../components/banner/banner";
+@import "../components/footer/footer";
+@import "../components/projects/projects";
+@import "../components/skills/skills";
+@import "../components/content/content";
+@import "../components/about/about";
+@import "../components/works/works";
+@import "../components/contact/contact";
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+.title{
+    font-family:'Sanchez', sans-serif;
+    display: flex;
+    font-weight: 200;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 50px;
+}
+
+.link{
+    font-family: 'Open Sans', sans-serif;
+    color: $red;
+    text-decoration-line: underline;
+    font-size: 17px;
+}

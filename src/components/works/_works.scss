@@ -1,0 +1,16 @@
+.works{
+    padding: 120px 50px;
+    background-color: $white;
+
+    .work_link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:  80px;
+    }
+
+    .work_image{
+        height: auto;
+        width: auto;
+    }
+}

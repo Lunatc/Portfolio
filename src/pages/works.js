@@ -1,17 +1,17 @@
 import * as React from 'react'
 import Navbar from '../components/navbar'
-import About from '../components/about'
+import Works from '../components/works'
 import Footer from '../components/footer'
 
-const AboutPage = () => {
+const WorksPage = () => {
   return (
     <main>
       <Navbar></Navbar>
-      <About></About>
+      <Works></Works>
       <Footer></Footer>
     </main>
   )
 }
 
 
-export default AboutPage
+export default WorksPage

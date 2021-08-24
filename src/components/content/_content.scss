@@ -1,0 +1,11 @@
+.content{
+    background-color: $white;
+
+    .text{
+        font-family: 'Sanchez', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom:  50px;
+    }
+}

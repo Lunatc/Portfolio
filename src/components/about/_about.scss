@@ -1,0 +1,31 @@
+.about{
+    padding: 120px 50px;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .coluna_1{
+        margin: 0 80px;
+    }
+
+    .coluna_2{
+        padding-right: 90px;
+        padding-left: 80px;
+        padding-top: 80px;
+    }
+
+    .about_image{
+        border-radius: 50%;
+        height: 220px;
+        width: 220px;
+        margin-right:  50px;
+        margin-bottom:  80px;
+    }
+
+    p, h3{
+        font-family: 'Sanchez', sans-serif;
+        font-size: 18px;
+        padding-bottom:  30px;
+    }
+}

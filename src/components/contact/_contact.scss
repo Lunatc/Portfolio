@@ -1,0 +1,68 @@
+.contact{
+    padding-top: 80px;
+    background-color: $white;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact_form{
+    padding: 10px 200px;
+}
+
+.namemail{
+    display: flex;
+}
+
+.email{
+    margin-left: auto;
+}
+
+input, textarea{
+    border-bottom: 1px solid $red;
+    border-top: none ;
+    border-left: none ;
+    border-right: none ;
+    background-color: $white;
+    font-family: 'Sanchez', serif;
+    margin: 30px;
+    padding-bottom: 5px;
+    resize: none;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    button{
+        background-color: $red;
+        font-family: 'Sanchez', serif;
+        margin: 30px;
+        padding: 5px;
+        border-radius: 5%;
+        border: none;
+        width: 25%;
+        color: $white;
+    }
+}
+
+.subject {
+    input{
+        width: 100%;
+    }
+}
+
+.message {
+    textarea{
+        width: 100%;
+        padding-bottom: 100px;
+    }
+}

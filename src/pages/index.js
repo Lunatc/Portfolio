@@ -1,12 +1,25 @@
 import * as React from "react"
-import Layout from '../components/layout'
+import './main.scss';
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import Banner from '../components/banner'
+import Projects from '../components/projects'
+import Skills from '../components/skills'
+import Content from '../components/content'
+
+
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-    </Layout>
+    <main>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Projects></Projects>
+      <Skills></Skills>
+      <Content></Content>
+      <Footer></Footer>
+    </main>
   )
 }
 
-export default IndexPage
+export default IndexPage;

@@ -1,0 +1,23 @@
+.projects{
+    background-color: $peach;
+
+    .project_image{
+        width: 230px;
+        height: 230px;
+        border-radius: 5%;
+    }
+
+    .project_images{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 50px 70px ;
+    }
+
+    .link{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom:  50px;
+    }
+}

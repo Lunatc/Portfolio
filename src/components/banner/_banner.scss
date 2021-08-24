@@ -1,0 +1,25 @@
+.banner{
+    padding: 150px 200px 90px 150px;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+      font-family: 'Sanchez', serif;
+      font-weight: 150;
+      margin-bottom: 10%;
+      margin-top: 15%;
+    }
+    p {
+      margin-bottom: 5%;
+      font-family: 'Open sans', sans-serif;
+    }
+
+}
+
+.banner_text{
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+}
