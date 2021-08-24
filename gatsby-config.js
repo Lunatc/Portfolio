@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     pathPrefix: "/Portfolio",
-    siteUrl: `https://lunatc.github.io/Portfolio/`,
+    siteUrl: `https://lunatc.github.io/`,
     title: "Cintia's Portfolio",
   },
   plugins: [
