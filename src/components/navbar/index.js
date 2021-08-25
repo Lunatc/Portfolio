@@ -26,11 +26,11 @@ export default function Navbar() {
     <section className="navbar" id="nav">
       <div className="navbar__content">
         <div className="navbar__links">
-          <Link to="/Portfolio/about" activeClassName="underline"> About </Link>
-          <Link to="/Portfolio/works" activeClassName="underline">Works</Link>
-          <Link to="/Portfolio" className="nav_central" activeClassName="underline_main">Cíntia</Link>
+          <Link to="/about" activeClassName="underline"> About </Link>
+          <Link to="/works" activeClassName="underline">Works</Link>
+          <Link to="/" className="nav_central" activeClassName="underline_main">Cíntia</Link>
           <Link to="/">Blog</Link>
-          <Link to="/Portfolio/contact" activeClassName="underline">Contact</Link>
+          <Link to="/contact" activeClassName="underline">Contact</Link>
         </div>
       </div>
     </section>
