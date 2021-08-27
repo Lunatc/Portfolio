@@ -8,10 +8,10 @@ export default function Footer() {
     return (
     <footer>       
         <div className="footer_content">
-                <Link to="/about">About</Link>
-                <Link to="/works">Works</Link>
+                <Link to="/Portfolio/about">About</Link>
+                <Link to="/Portfolio/works">Works</Link>
                 <Link to="/">Blog</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/Portfolio/contact">Contact</Link>
         </div>
 
         <div className="footer_icones">

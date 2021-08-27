@@ -7,7 +7,7 @@ export default function Banner() {
     return (    
       <div className="banner">
                 <StaticImage
-                    src="../images/photo2.jpg"
+                    src={`../../images/photo2.jpg`}
                     alt="logo"
                     className="banner_image"         
                 />

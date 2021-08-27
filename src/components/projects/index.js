@@ -15,25 +15,25 @@ export default function Projects() {
                 
 
                 <a href="https://github.com/Lunatc"><StaticImage
-                        src="../../images/photo2.jpg"
+                        src={`../../images/photo2.jpg`}
                         alt="logo"
                         className="project_image"         
                     /></a>
                 <a href="https://github.com/Lunatc"><StaticImage
-                        src="../../images/photo3.jpg"
+                        src={`../../images/photo3.jpg`}
                         alt="logo"
                         className="project_image"         
                     /></a>
                 <a href="https://github.com/Lunatc">
                     <StaticImage
-                        src="../../images/photo4.jpg"
+                        src={`../../images/photo4.jpg`}
                         alt="logo"
                         className="project_image"         
                     />
                 </a>
                 <a href="https://github.com/Lunatc">
                     <StaticImage
-                        src="../../images/photo5.jpg"
+                        src={`../../images/photo5.jpg`}
                         alt="logo"
                         className="project_image"         
                     />
