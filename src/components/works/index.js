@@ -41,7 +41,7 @@ export default function About() {
             <div className="work_link">
                 <a href="https://github.com/Lunatc">
                     <StaticImage
-                        src={`../../static/photo5.jpg`}
+                        src={`./../static/photo5.jpg`}
                         alt="logo"
                         className="work_image"         
                     />
