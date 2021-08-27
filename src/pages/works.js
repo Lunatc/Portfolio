@@ -1,7 +1,8 @@
-import * as React from 'react'
-import Navbar from '../components/navbar'
-import Works from '../components/works'
-import Footer from '../components/footer'
+import * as React from 'react';
+import Navbar from '../components/navbar';
+import Works from '../components/works';
+import Footer from '../components/footer';
+import './main.scss';
 
 const WorksPage = () => {
   return (
