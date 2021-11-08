@@ -11,7 +11,7 @@ export default function About() {
             <div className="work_link">
                 <a href="https://github.com/Lunatc">
                     <StaticImage
-                        src={`../../static/photo2.jpg`}
+                        src={`../../images/photo2.jpg`}
                         alt="logo"
                         className="work_image"         
                     />
@@ -21,7 +21,7 @@ export default function About() {
             <div className="work_link">
                 <a href="https://github.com/Lunatc">
                     <StaticImage
-                        src={`../../static/photo3.jpg`}
+                        src={`../../images/photo3.jpg`}
                         alt="logo"
                         className="work_image"         
                     />
@@ -31,7 +31,7 @@ export default function About() {
             <div className="work_link">
                 <a href="https://github.com/Lunatc">
                     <StaticImage
-                        src={`../../static/photo4.jpg`}
+                        src={`../../images/photo4.jpg`}
                         alt="logo"
                         className="work_image"         
                     />
@@ -41,7 +41,7 @@ export default function About() {
             <div className="work_link">
                 <a href="https://github.com/Lunatc">
                     <StaticImage
-                        src={`../../static/photo5.jpg`}
+                        src={`../../images/photo5.jpg`}
                         alt="logo"
                         className="work_image"         
                     />

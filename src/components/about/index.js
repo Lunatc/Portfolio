@@ -6,7 +6,7 @@ export default function About() {
         <div className="about">
             <div className="coluna_1">
                 <StaticImage
-                    src={`../../static/photo.jpg`}
+                    src={`../../images/photo.jpg`}
                     alt="logo"
                     className="about_image"         
                 />
